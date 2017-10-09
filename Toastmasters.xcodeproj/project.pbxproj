@@ -22,6 +22,9 @@
 		73934C331F7D494F00214EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73934C361F7D494F00214EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73934C381F7D494F00214EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FCEFD21F87A42800E1F0E0 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../../Downloads/Lato2OFL/Lato-Light.ttf"; sourceTree = "<group>"; };
+		73FCEFD51F87A69400E1F0E0 /* Assets-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assets-01.png"; path = "../../../../Documents/asiadaya/Toastmasters/Assets/Assets-01.png"; sourceTree = "<group>"; };
+		73FCEFDB1F87AEE500E1F0E0 /* Assets-01 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets-01 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +57,25 @@
 		73934C2B1F7D494F00214EB4 /* Toastmasters */ = {
 			isa = PBXGroup;
 			children = (
-				73934C2C1F7D494F00214EB4 /* AppDelegate.swift */,
 				73934C2E1F7D494F00214EB4 /* ViewController.swift */,
+				73FCEFD21F87A42800E1F0E0 /* Lato-Light.ttf */,
 				73934C301F7D494F00214EB4 /* Main.storyboard */,
+				73FCEFDB1F87AEE500E1F0E0 /* Assets-01 copy.png */,
+				73934C3E1F7D499700214EB4 /* Supporting Files */,
+			);
+			path = Toastmasters;
+			sourceTree = "<group>";
+		};
+		73934C3E1F7D499700214EB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73934C2C1F7D494F00214EB4 /* AppDelegate.swift */,
 				73934C331F7D494F00214EB4 /* Assets.xcassets */,
+				73FCEFD51F87A69400E1F0E0 /* Assets-01.png */,
 				73934C351F7D494F00214EB4 /* LaunchScreen.storyboard */,
 				73934C381F7D494F00214EB4 /* Info.plist */,
 			);
-			path = Toastmasters;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QEP8L99H7X;
-				INFOPLIST_FILE = Toastmasters/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adh.Toastmasters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QEP8L99H7X;
-				INFOPLIST_FILE = Toastmasters/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adh.Toastmasters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
