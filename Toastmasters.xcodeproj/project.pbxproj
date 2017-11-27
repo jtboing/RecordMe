@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BE110091F94BF4500F1E09A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE110081F94BF4200F1E09A /* img1.png */; };
+		6BE1100B1F959E1100F1E09A /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE1100A1F959E1100F1E09A /* Camera.swift */; };
 		73934C2D1F7D494F00214EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73934C2C1F7D494F00214EB4 /* AppDelegate.swift */; };
 		73934C2F1F7D494F00214EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73934C2E1F7D494F00214EB4 /* ViewController.swift */; };
 		73934C321F7D494F00214EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73934C301F7D494F00214EB4 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BE110031F9498D600F1E09A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		6BE110081F94BF4200F1E09A /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		6BE1100A1F959E1100F1E09A /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		73934C291F7D494F00214EB4 /* Toastmasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toastmasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73934C2C1F7D494F00214EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73934C2E1F7D494F00214EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,9 +27,6 @@
 		73934C331F7D494F00214EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73934C361F7D494F00214EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73934C381F7D494F00214EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73FCEFD21F87A42800E1F0E0 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../../Downloads/Lato2OFL/Lato-Light.ttf"; sourceTree = "<group>"; };
-		73FCEFD51F87A69400E1F0E0 /* Assets-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assets-01.png"; path = "../../../../Documents/asiadaya/Toastmasters/Assets/Assets-01.png"; sourceTree = "<group>"; };
-		73FCEFDB1F87AEE500E1F0E0 /* Assets-01 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets-01 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BE110041F9499DB00F1E09A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6BE110081F94BF4200F1E09A /* img1.png */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		73934C201F7D494E00214EB4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				73934C2E1F7D494F00214EB4 /* ViewController.swift */,
-				73FCEFD21F87A42800E1F0E0 /* Lato-Light.ttf */,
+				6BE110031F9498D600F1E09A /* Lato-Light.ttf */,
 				73934C301F7D494F00214EB4 /* Main.storyboard */,
-				73FCEFDB1F87AEE500E1F0E0 /* Assets-01 copy.png */,
 				73934C3E1F7D499700214EB4 /* Supporting Files */,
+				6BE1100A1F959E1100F1E09A /* Camera.swift */,
 			);
 			path = Toastmasters;
 			sourceTree = "<group>";
@@ -69,9 +79,9 @@
 		73934C3E1F7D499700214EB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BE110041F9499DB00F1E09A /* New Group */,
 				73934C2C1F7D494F00214EB4 /* AppDelegate.swift */,
 				73934C331F7D494F00214EB4 /* Assets.xcassets */,
-				73FCEFD51F87A69400E1F0E0 /* Assets-01.png */,
 				73934C351F7D494F00214EB4 /* LaunchScreen.storyboard */,
 				73934C381F7D494F00214EB4 /* Info.plist */,
 			);
@@ -138,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73934C371F7D494F00214EB4 /* LaunchScreen.storyboard in Resources */,
+				6BE110091F94BF4500F1E09A /* img1.png in Resources */,
 				73934C341F7D494F00214EB4 /* Assets.xcassets in Resources */,
 				73934C321F7D494F00214EB4 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +163,7 @@
 			files = (
 				73934C2F1F7D494F00214EB4 /* ViewController.swift in Sources */,
 				73934C2D1F7D494F00214EB4 /* AppDelegate.swift in Sources */,
+				6BE1100B1F959E1100F1E09A /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
