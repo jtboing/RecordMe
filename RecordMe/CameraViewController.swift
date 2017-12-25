@@ -244,28 +244,7 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         }
     }
     
-        /*
-    
-        let defaultVideoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
-        
-        do {
-            videoDeviceInput = try AVCaptureDeviceInput(device: defaultVideoDevice!)
-        } catch {
-            print("Could not add video device input to the session")
-        }
-        
-        if session.canAddInput(videoDeviceInput) {
-            session.addInput(videoDeviceInput)
-            self.input = input
-        }
-        
-        let videoPreviewLayer = AVCaptureVideoPreviewLayer(session: session)
-        videoPreviewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
-        videoPreviewLayer.frame = view.layer.bounds
-        previewView.layer.addSublayer(videoPreviewLayer)
-        
-        session.startRunning()
-        */
+    // MARK: GUI Button
     
     func styleCaptureButton() {
         captureButton.layer.borderColor = UIColor.white.cgColor
@@ -274,6 +253,8 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         captureButton.layer.cornerRadius = min(captureButton.frame.width, captureButton.frame.height) / 2
         
     }
+    
+    // MARK: Timer Functions
     
     func startTimer() {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)

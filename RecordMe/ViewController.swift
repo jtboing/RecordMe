@@ -7,8 +7,20 @@
 //
 
 import UIKit
+import Photos
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBAction func openPhotoLibraryButton(_ sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = .photoLibrary
+            imagePicker.allowsEditing = false
+            
+            self.present(imagePicker, animated: true, completion: nil)
+        }
+    }
 }
 

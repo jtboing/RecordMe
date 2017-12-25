@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6B2454981FEF7C1800659B7A /* buttonAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2454971FEF7C1800659B7A /* buttonAnimationExtension.swift */; };
 		6B24549A1FF08AC100659B7A /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2454991FF08AC100659B7A /* PhotoCaptureDelegate.swift */; };
+		6B24549C1FF1633400659B7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B24549B1FF1633300659B7A /* Default-568h@2x.png */; };
 		6B4C76C81FEB7CC900165C53 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C76C71FEB7CC900165C53 /* PreviewView.swift */; };
 		6BE110091F94BF4500F1E09A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE110081F94BF4200F1E09A /* img1.png */; };
 		737B6D6C1FE9063A00A9C98A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B6D6B1FE9063A00A9C98A /* CameraViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		6B2454971FEF7C1800659B7A /* buttonAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAnimationExtension.swift; sourceTree = "<group>"; };
 		6B2454991FF08AC100659B7A /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		6B24549B1FF1633300659B7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B4C76C71FEB7CC900165C53 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		6BE110031F9498D600F1E09A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		6BE110081F94BF4200F1E09A /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		73934C201F7D494E00214EB4 = {
 			isa = PBXGroup;
 			children = (
+				6B24549B1FF1633300659B7A /* Default-568h@2x.png */,
 				73934C2B1F7D494F00214EB4 /* RecordMe */,
 				73934C2A1F7D494F00214EB4 /* Products */,
 			);
@@ -159,6 +162,7 @@
 				73934C371F7D494F00214EB4 /* LaunchScreen.storyboard in Resources */,
 				6BE110091F94BF4500F1E09A /* img1.png in Resources */,
 				73934C341F7D494F00214EB4 /* Assets.xcassets in Resources */,
+				6B24549C1FF1633400659B7A /* Default-568h@2x.png in Resources */,
 				73934C321F7D494F00214EB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,10 +317,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QEP8L99H7X;
-				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
+				DEVELOPMENT_TEAM = SVM8R223YH;
+				INFOPLIST_FILE = "$(SRCROOT)/RecordMe/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adh.RecordMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KEC.RecordMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,10 +333,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QEP8L99H7X;
-				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
+				DEVELOPMENT_TEAM = SVM8R223YH;
+				INFOPLIST_FILE = "$(SRCROOT)/RecordMe/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adh.RecordMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KEC.RecordMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
