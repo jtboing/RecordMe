@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2454981FEF7C1800659B7A /* buttonAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2454971FEF7C1800659B7A /* buttonAnimationExtension.swift */; };
+		6B24549A1FF08AC100659B7A /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2454991FF08AC100659B7A /* PhotoCaptureDelegate.swift */; };
+		6B4C76C81FEB7CC900165C53 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C76C71FEB7CC900165C53 /* PreviewView.swift */; };
 		6BE110091F94BF4500F1E09A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE110081F94BF4200F1E09A /* img1.png */; };
-		6BE1100B1F959E1100F1E09A /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE1100A1F959E1100F1E09A /* Camera.swift */; };
+		737B6D6C1FE9063A00A9C98A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B6D6B1FE9063A00A9C98A /* CameraViewController.swift */; };
 		73934C2D1F7D494F00214EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73934C2C1F7D494F00214EB4 /* AppDelegate.swift */; };
 		73934C2F1F7D494F00214EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73934C2E1F7D494F00214EB4 /* ViewController.swift */; };
 		73934C321F7D494F00214EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73934C301F7D494F00214EB4 /* Main.storyboard */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B2454971FEF7C1800659B7A /* buttonAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAnimationExtension.swift; sourceTree = "<group>"; };
+		6B2454991FF08AC100659B7A /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		6B4C76C71FEB7CC900165C53 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		6BE110031F9498D600F1E09A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		6BE110081F94BF4200F1E09A /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
-		6BE1100A1F959E1100F1E09A /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		73934C291F7D494F00214EB4 /* Toastmasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toastmasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737B6D6B1FE9063A00A9C98A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		73934C291F7D494F00214EB4 /* RecordMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73934C2C1F7D494F00214EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73934C2E1F7D494F00214EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73934C311F7D494F00214EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,7 +57,7 @@
 		73934C201F7D494E00214EB4 = {
 			isa = PBXGroup;
 			children = (
-				73934C2B1F7D494F00214EB4 /* Toastmasters */,
+				73934C2B1F7D494F00214EB4 /* RecordMe */,
 				73934C2A1F7D494F00214EB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,21 +65,24 @@
 		73934C2A1F7D494F00214EB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73934C291F7D494F00214EB4 /* Toastmasters.app */,
+				73934C291F7D494F00214EB4 /* RecordMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73934C2B1F7D494F00214EB4 /* Toastmasters */ = {
+		73934C2B1F7D494F00214EB4 /* RecordMe */ = {
 			isa = PBXGroup;
 			children = (
 				73934C2E1F7D494F00214EB4 /* ViewController.swift */,
+				737B6D6B1FE9063A00A9C98A /* CameraViewController.swift */,
+				6B4C76C71FEB7CC900165C53 /* PreviewView.swift */,
 				6BE110031F9498D600F1E09A /* Lato-Light.ttf */,
 				73934C301F7D494F00214EB4 /* Main.storyboard */,
 				73934C3E1F7D499700214EB4 /* Supporting Files */,
-				6BE1100A1F959E1100F1E09A /* Camera.swift */,
+				6B2454971FEF7C1800659B7A /* buttonAnimationExtension.swift */,
+				6B2454991FF08AC100659B7A /* PhotoCaptureDelegate.swift */,
 			);
-			path = Toastmasters;
+			path = RecordMe;
 			sourceTree = "<group>";
 		};
 		73934C3E1F7D499700214EB4 /* Supporting Files */ = {
@@ -91,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73934C281F7D494F00214EB4 /* Toastmasters */ = {
+		73934C281F7D494F00214EB4 /* RecordMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73934C3B1F7D494F00214EB4 /* Build configuration list for PBXNativeTarget "Toastmasters" */;
+			buildConfigurationList = 73934C3B1F7D494F00214EB4 /* Build configuration list for PBXNativeTarget "RecordMe" */;
 			buildPhases = (
 				73934C251F7D494F00214EB4 /* Sources */,
 				73934C261F7D494F00214EB4 /* Frameworks */,
@@ -103,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = Toastmasters;
+			name = RecordMe;
 			productName = Toastmasters;
-			productReference = 73934C291F7D494F00214EB4 /* Toastmasters.app */;
+			productReference = 73934C291F7D494F00214EB4 /* RecordMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 73934C241F7D494E00214EB4 /* Build configuration list for PBXProject "Toastmasters" */;
+			buildConfigurationList = 73934C241F7D494E00214EB4 /* Build configuration list for PBXProject "RecordMe" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73934C281F7D494F00214EB4 /* Toastmasters */,
+				73934C281F7D494F00214EB4 /* RecordMe */,
 			);
 		};
 /* End PBXProject section */
@@ -161,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B24549A1FF08AC100659B7A /* PhotoCaptureDelegate.swift in Sources */,
+				737B6D6C1FE9063A00A9C98A /* CameraViewController.swift in Sources */,
+				6B4C76C81FEB7CC900165C53 /* PreviewView.swift in Sources */,
 				73934C2F1F7D494F00214EB4 /* ViewController.swift in Sources */,
+				6B2454981FEF7C1800659B7A /* buttonAnimationExtension.swift in Sources */,
 				73934C2D1F7D494F00214EB4 /* AppDelegate.swift in Sources */,
-				6BE1100B1F959E1100F1E09A /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +316,7 @@
 				DEVELOPMENT_TEAM = QEP8L99H7X;
 				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adh.Toastmasters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adh.RecordMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +331,7 @@
 				DEVELOPMENT_TEAM = QEP8L99H7X;
 				INFOPLIST_FILE = "$(SRCROOT)/Toastmasters/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adh.Toastmasters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adh.RecordMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73934C241F7D494E00214EB4 /* Build configuration list for PBXProject "Toastmasters" */ = {
+		73934C241F7D494E00214EB4 /* Build configuration list for PBXProject "RecordMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73934C391F7D494F00214EB4 /* Debug */,
@@ -338,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73934C3B1F7D494F00214EB4 /* Build configuration list for PBXNativeTarget "Toastmasters" */ = {
+		73934C3B1F7D494F00214EB4 /* Build configuration list for PBXNativeTarget "RecordMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73934C3C1F7D494F00214EB4 /* Debug */,
