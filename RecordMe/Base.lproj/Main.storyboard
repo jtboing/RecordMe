@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,40 +26,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xwf-sa-EHJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xwf-sa-EHJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlh-dX-bEw">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlh-dX-bEw">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RecordMe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOe-2T-fR1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RePromptu" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOe-2T-fR1">
                                 <rect key="frame" x="41" y="157" width="293" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="OVw-6s-yV7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
                                 <color key="textColor" red="1" green="0.56259328126907349" blue="0.0068243145942687988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the App to help you  learn public speaking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOY-V1-TNW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the App to help you  learn public speaking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOY-V1-TNW">
                                 <rect key="frame" x="-14" y="405" width="404" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="8YZ-4v-iQi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="17"/>
                                 <color key="textColor" red="0.99013075233315628" green="0.9702934435941386" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" © asiadaya 2017" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1Z-mU-GW5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" © asiadaya 2017" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1Z-mU-GW5">
                                 <rect key="frame" x="41" y="607" width="293" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Yl9-ar-4RL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
                                 <color key="textColor" red="0.99013075230000003" green="0.97029344360000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBk-bf-uhY">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBk-bf-uhY">
                                 <rect key="frame" x="117" y="516" width="140" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.56658738851547241" blue="0.0052231973968446255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="3MY-PS-xS8"/>
+                                    <constraint firstAttribute="width" constant="140" id="e1Q-OW-Z5e"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="24"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Let's Start">
@@ -75,6 +83,28 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="leading" secondItem="Xwf-sa-EHJ" secondAttribute="leading" id="7vs-Rp-8n5"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="top" secondItem="Xwf-sa-EHJ" secondAttribute="top" id="9KN-QS-yAl"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="centerX" secondItem="dBk-bf-uhY" secondAttribute="centerX" id="CJV-gy-DT7"/>
+                            <constraint firstItem="wOY-V1-TNW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="405" id="FE0-QY-bTg"/>
+                            <constraint firstItem="jOe-2T-fR1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="GdI-r0-ZWG"/>
+                            <constraint firstItem="dBk-bf-uhY" firstAttribute="top" secondItem="wOY-V1-TNW" secondAttribute="bottom" constant="29" id="IO2-I4-Tf1"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ml9-mn-6U6"/>
+                            <constraint firstItem="z1Z-mU-GW5" firstAttribute="top" secondItem="dBk-bf-uhY" secondAttribute="bottom" constant="28" id="XUK-rL-4DC"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="bottom" secondItem="Xwf-sa-EHJ" secondAttribute="bottom" id="Xxd-1M-u3G"/>
+                            <constraint firstAttribute="bottom" secondItem="z1Z-mU-GW5" secondAttribute="bottom" constant="20" symbolic="YES" id="b3W-y9-vkB"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="centerX" secondItem="jOe-2T-fR1" secondAttribute="centerX" id="e36-4u-vPe"/>
+                            <constraint firstAttribute="trailing" secondItem="Qlh-dX-bEw" secondAttribute="trailing" id="frP-WZ-C4N"/>
+                            <constraint firstItem="jOe-2T-fR1" firstAttribute="leading" secondItem="z1Z-mU-GW5" secondAttribute="leading" id="ize-LH-oRj"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mCn-2j-wm0"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="centerX" secondItem="wOY-V1-TNW" secondAttribute="centerX" id="rLl-JC-k45"/>
+                            <constraint firstItem="jOe-2T-fR1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="rXX-73-peq"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rsT-rS-hMr"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="centerX" secondItem="z1Z-mU-GW5" secondAttribute="centerX" id="tfz-bn-JCW"/>
+                            <constraint firstItem="Qlh-dX-bEw" firstAttribute="trailing" secondItem="Xwf-sa-EHJ" secondAttribute="trailing" id="ubt-wW-zHi"/>
+                            <constraint firstItem="wOY-V1-TNW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-30" id="wcv-aa-gup"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="pQ3-28-hbZ"/>
@@ -455,9 +485,16 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aMg-Ua-XDR">
                                         <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfD-O7-zQd">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfD-O7-zQd" customClass="KYShutterButton" customModule="RecordMe" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="typeRaw">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="captureButton:" destination="6uq-6T-XIA" eventType="touchUpInside" id="wGd-Om-lO1"/>
                                                 </connections>
@@ -559,6 +596,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Q4J-ej-dRT"/>
-        <segue reference="tXJ-Te-bfE"/>
+        <segue reference="cHm-bp-YPM"/>
     </inferredMetricsTieBreakers>
 </document>
